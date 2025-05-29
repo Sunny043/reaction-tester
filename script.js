@@ -27,6 +27,7 @@ document.getElementById('shape').onclick=function(){
     this.style.display='none';
     var end=new Date().getTime();
     var result= (end-start)/1000;
-    document.getElementsByClassName('time')[0].innerHTML= "Your Reaction Time is:" + result;
+    // document.getElementsByClassName('time')[0].innerHTML= "Your Reaction Time is:" + result;
+    alert("Your Reaction Time is: " + result + " seconds");
     move();
 }
